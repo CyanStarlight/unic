@@ -20,3 +20,4 @@ This repository serves as a collaborative resource for University of Nicosia stu
      >> The course abbreviation is the course code in the format of `COURSE-###` (e.g. `MATH-101`, `COMP-101`, etc).
    >>> Unique Course Code (for example, <https://portal.unic.ac.cy/courses/355025> is `355025`)
     >>>> The course material is organized in folders: `Labs`, `Lectures`, `Books`, `Notes`, etc.
+        
