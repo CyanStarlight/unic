@@ -57,7 +57,6 @@ def convert_to_submodule(repo_path, folder_name):
     subprocess.run(['git', 'add', '.gitmodules'], cwd=repo_path)
     subprocess.run(['git', 'commit', '-m', f"Convert {folder_name} to submodule"], cwd=repo_path)
 
-
 #Messy tbh, needs a better recursive search
 def search_repo(repo_path, query):
     for item in os.listdir(repo_path):
