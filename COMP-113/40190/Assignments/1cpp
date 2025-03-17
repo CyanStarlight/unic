@@ -1,0 +1,36 @@
+#include <iostream>
+
+
+using namespace std;
+
+
+char getGrade_displayPrompt(bool loop = true) {
+    char grade;
+    char grades[] = {'A', 'B', 'C', 'D', 'F', 'X'};
+    cout << "Please enter grade (A, B, C, D or F, X to finish): ";
+    while (loop) {
+        cin >> grade;
+        for (int i = 0; i != 5; i++) {
+            if (grade == grades[i]) {
+                return grade;
+            }
+        }
+        cout << "Invalid grade, please enter grade (A, B, C, D or F, X to finish): ";
+    }
+}
+
+
+
+int main() {
+    bool _run = 1;
+    do {
+        
+    }
+    while (_run);
+    return 0;
+}
+
+
+extern "ASM" void __cxa_pure_virtual() {
+    while (1);
+}
